@@ -12,6 +12,7 @@
 	<artifactId>Upload_Images</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Upload_Images</name>
+	<packaging>war</packaging>
 	<description>this micro service is going to be used to upload an image to the firebase.</description>
 	<properties>
 		<java.version>11</java.version>
@@ -40,6 +41,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>com.heroku.sdk</groupId>
+				<artifactId>heroku-maven-plugin</artifactId>
+				<version>2.0.16</version>
 			</plugin>
 		</plugins>
 	</build>
