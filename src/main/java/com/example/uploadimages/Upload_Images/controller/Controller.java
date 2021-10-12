@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@CrossOrigin("http://localhost:9595")
+@CrossOrigin("https://upload-img-1.herokuapp.com/")
 class Controller{
 
     @Autowired
